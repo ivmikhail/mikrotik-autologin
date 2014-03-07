@@ -1,0 +1,15 @@
+{
+    "content_scripts" : [
+        {
+            "js":["jquery-1.10.1.js", "background.js" ], 
+            "matches":[ "http://gate.sinet.office/login*" ], 
+            "run_at":"document_end"  
+        }
+    ], 
+    "description" : "", 
+    "name" : "sinet autologin", 
+    "permissions" : [ "http://*/*", "unlimitedStorage"],
+    "version" : "0.0.1",
+	"manifest_version": 2,
+	"web_accessible_resources": [ "/sinetgate.user.js"]
+}
