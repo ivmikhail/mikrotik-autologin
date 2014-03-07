@@ -1,6 +1,6 @@
 #WTF?
 
-This is huge chrome extension for autologin on mikrotik hotspot
+This is uncouth chrome extension for autologin on mikrotik hotspot
 
 ##Synopsis
 
